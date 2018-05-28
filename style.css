@@ -1,0 +1,35 @@
+.section{
+    min-height: 1000px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 80px;
+    padding: 80px 10px 0px;
+}
+
+#home{
+    background: url(https://loremflickr.com/cache/resized/967_42278612541_65d095ebe8_h_1280_720_g.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#about{
+    background: url(https://loremflickr.com/1920/1080/paris,girl/all) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#home div,
+#about div{
+    padding: 10px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#products .col-sm-6 p{
+    line-height: 50px;
+}
+
+#about p{
+    padding: 10px;
+}
+
+.section:nth-child(even){
+    background-color: #ccc;
+}
